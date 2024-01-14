@@ -22,11 +22,11 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-const hideBotton = document.querySelector('.main__description_btn');
+const hideBotton = document.querySelector('.btn');
 
 const hiddenSlides = document.querySelector('.brend-list');
 
-const hideIcon = document.querySelector('.main__description_png');
+const hideIcon = document.querySelector('.more');
 
 let isHidden = true;
 
