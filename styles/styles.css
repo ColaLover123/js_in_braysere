@@ -123,10 +123,10 @@
       background: #FFF;
       box-sizing: border-box;
   }
-  .brend-item:nth-child(n+6) {
+  .brend-item:nth-child(n+7) {
       display: none;
   }
-  .brend-list.visible .brend-item:nth-child(n+6) {
+  .brend-list.visible .brend-item:nth-child(n+7) {
       display: flex;
   }
   .main__button {
@@ -161,10 +161,10 @@
       display: flex;
       flex-wrap: wrap;
   }
-  .brend-item:nth-child(n+9) {
+  .brend-item:nth-child(n+10) {
       display: flex;
   }
-  .brend-list.visible .brend-item:nth-child(9) {
+  .brend-list.visible .brend-item:nth-child(10) {
       display: flex;
   }
   .swiper {
