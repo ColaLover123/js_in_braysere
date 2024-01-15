@@ -22,7 +22,7 @@ const swiper = new Swiper('.swiper', {
   },
 });
 
-const hideBotton = document.querySelector('.btn');
+const hideButton = document.querySelector('.btn');
 
 const hiddenSlides = document.querySelector('.brend-list');
 
@@ -34,18 +34,18 @@ let showList = () => {
   console.log(hiddenSlides);
   hiddenSlides.classList.add('visible');
   isHidden = false;
-  hideBotton.innerHTML = 'Скрыть';
+  hideButton.innerHTML = 'Скрыть';
   hideIcon.style = 'transform: rotate(180deg)'
 }
 
 let hideList = () => {
   hiddenSlides.classList.remove('visible');
   isHidden = true;
-  hideBotton.innerHTML = 'Показать все';
+  hideButton.innerHTML = 'Показать все';
   hideIcon.style = 'transform: rotate(0deg)'
 }
 
-hideBotton.addEventListener('click', () => {
+hideButton.addEventListener('click', () => {
   if (isHidden) {
       showList();
   } else {

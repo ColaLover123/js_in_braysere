@@ -65,7 +65,7 @@ svg {
 
 .swiper-button-prev,
 .swiper-button-next {
-  display: none !important;
+  opacity: 0;
 }
 
 .swiper-scrollbar {
