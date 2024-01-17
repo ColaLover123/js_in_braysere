@@ -29,14 +29,14 @@ body {
 /* Header */
 
 .brend-wrapper {
-  max-width: 288px;
+  max-width: 278px;
   margin: 0 auto;
   overflow: hidden;
 }
 
 .brend-text {
   position: relative;
-  right: -35px;
+  right: 0;
   font-family: "TT Lakes Light";
   font-size: 16px;
   line-height: 24px;
@@ -71,18 +71,24 @@ svg {
   height: 100px;
 }
 
-.swiper-initialized,
+
 .swiper-horizontal,
+.swiper-initialized,
 .swiper-backface-hidden {
   position: relative !important;
-  left: -43px;
+  left: -39px;
   width: 200px;
   overflow: visible !important;
 }
 
-.swiper-slide-active {
+.swiper-wrapper {
   width: 200px !important;
 }
+
+.swiper-slide-active {
+  margin-right: 20px;
+}
+
 
 .swiper-button-prev,
 .swiper-button-next {
@@ -107,15 +113,18 @@ svg {
   background-color: white;
 }
 
-.swiper::after {
+.fade {
+  z-index: 100;
+  display: flex;
   background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.00) 100%);
   content: '';
   position: absolute;
-  center: 0;
-  right: 0;
+  top: 0;
+  right: -79px;
   width: 24px;
   height: 72px;
 }
+
 
 .swiper-pagination-bullet {
   width: 12px;
