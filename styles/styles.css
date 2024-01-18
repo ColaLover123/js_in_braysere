@@ -125,11 +125,18 @@ svg {
   height: 72px;
 }
 
+.swiper-pagination {
+  gap: 12px !important;
+}
 
 .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  position: relative !important;
+  top: 10px;
+  left: 20px;
+  width: 12px !important;
+  height: 12px !important;
   background-color: #DDDDDD !important;
+  gap: 12px !important;
 }
 
 .swiper-pagination-bullet-active {
